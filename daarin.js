@@ -13,7 +13,7 @@ function Started() {
     let Show_P = document.querySelector("p#explain")
     let Show_TextPT2 = document.querySelector("p#textPT2")
 
-    Change_BackGround.style = "background-image: url(./src/BackgroundOmedetou.gif); background-size: 120% 130%; background-repeat: no-repeat;"
+    Change_BackGround.style = "background-image: url(./src/BackgroundOmedetou.gif); background-size: 120% 135%; background-repeat: no-repeat;"
     Show_video.style = "display: initial;"
     ButtonPlay.style = "display: initial;"
     Show_P.style = "display: initial;"

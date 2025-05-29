@@ -96,8 +96,8 @@ body {
         -webkit-text-stroke-color: blue;
         text-align: center;
     }
-    div#PT2End {
-        /* display: none; */
+    div#Abs {
+        margin-top: 5%;
     }
     p#textPT2 {
         display: none;
@@ -114,9 +114,6 @@ body {
         flex-direction: column;
         padding: 5px;
         border-radius: 10px;
-    }
-    div#Abs {
-        position: absolute;
     }
     button#finalbutton {
         /* display: none; */
