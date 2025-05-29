@@ -96,9 +96,6 @@ body {
         -webkit-text-stroke-color: blue;
         text-align: center;
     }
-    div#Abs {
-        margin-top: 5%;
-    }
     p#textPT2 {
         display: none;
         width: 90%;
@@ -121,13 +118,14 @@ body {
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: absolute;
-        top: 130%;
+        top: 120%;
         height: 50px;
         width: 35%;
         border-radius: 15px;
         color: black;
         font: 20pt normal Arial;
         margin-left: 34%;
+        opacity: 0.8;
     }
     div#final {
         display: none;
