@@ -6,16 +6,41 @@
     <title>Parabéns fofa</title>
     <link rel="stylesheet" href="../src/hanii.css">
 </head>
-<body>
+<body id="BodyH">
+
+<!-- parte 1 -->
 
 <header id="InitialMsg"><strong>Espero que goste!❤️</strong></header>
-<div id="ClickMePls"><strong>Clique em mim</strong><br>😳👉👈</div>
+<div id="ClickMePls" onclick="Started()"><strong>Clique em mim</strong></div>
 
+<!-- parte 1 -->
 
+<!-- parte do vídeo -->
+<div id="videoPT2">
 
-    <!-- <video autoplay muted loop id="myVideo">
-  <source src="rain.mp4" type="video/mp4"> só na parte dois
-</video> -->
+    <video id="Video">
+  <source src="./src/omedetou.mp4" type="video/mp4">
+    </video>
+    <button id="Play" onclick="Play()">Play</button>
+    <p id="explain">Obs.: Deduzi que odiaria se eu colocasse uma foto sua, então coloquei uma do biscoito no lugar.</p>
+
+</div>
+<!-- parte do vídeo -->
+
+<!-- parte do texto + direcionamento para o fim -->
+ <div id="PT2End">
+
+    <p id="textPT2">Oii, feliz aniversáriooo! Queria ter terminado isso antes e te mandado, mas planejei mt mal kkkk desculpa. Vou tentar ser breve pq não quero te prender mt nisso. Parabéns por mais um ano de existência, espero que venham muitos mais pela frente e que seu azar acabe logo tbm kk. Eu acho vc uma pessoa foda pra krl, cada momento que passo com vc é mt especial pra mim (literalmente cada segundo), e creio que para outras pessoas tbm. Mesmo vc sendo foda pra krl ainda possui uns defeitoszinhos, mas ninguém é perfeito né kkkk. Anseio pelo dia em que vc terá uma excelente autoestima, se um dia isso acontecer eu banco uma festa em comemoração (pode cobrar). Enfim, parabéns por existir há 21 anos e ser essa pessoa surrealmente foda que vc É (esse "é" está maiúsculo de propósito pra dar ênfase nisso), te amo❤️. (Espero que seu azar acabe logo, ninguem merece tanto azar kkkk.) </p>
+    <button id="finalbutton" onclick="chest()">Clique</button>
+
+ </div>
+<div id="final">
+    <video loop id="vdFinal">
+        <source src="./src/PosFinalVideo.mp4" type="video/mp4">
+    </video>
+
+</div>
+    
     <script src="../src/daarin.js"></script>
 </body>
 </html>
