@@ -115,20 +115,22 @@ body {
         padding: 5px;
         border-radius: 10px;
     }
+    div#Abs {
+        position: absolute;
+    }
     button#finalbutton {
         /* display: none; */
         background-image: url(./src/ButtonBackground.gif);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: absolute;
-        top: 120%;
+        top: 130%;
         height: 50px;
         width: 35%;
         border-radius: 15px;
         color: black;
         font: 20pt normal Arial;
         margin-left: 34%;
-        flex-direction: column;
     }
     div#final {
         display: none;
