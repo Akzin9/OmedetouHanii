@@ -7,7 +7,7 @@ html, body {
     overflow: hidden;
 }
 body {
-    background-image: url(../src/backgroundMain.gif);
+    background-image: url(./src/backgroundMain.gif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -49,7 +49,7 @@ body {
     div#ClickMePls::before {
         content: "";
         background-color: rgb(255, 255, 255); 
-         background-image: url(../src/Nanami\ Chest.png);
+         background-image: url(./src/Nanami\ Chest.png);
         background-size: cover; 
         z-index: -1;
         inset: 0;
@@ -77,7 +77,7 @@ body {
         top: 38%;
         border-radius: 15px;
         padding: 4px;
-        background-image: url(./BackgroundTemp.gif);
+        background-image: url(./src/BackgroundTemp.gif);
         background-size: cover;
         color: rgb(0, 0, 0);
         font-weight: 15px;
@@ -117,7 +117,7 @@ body {
     }
     button#finalbutton {
         /* display: none; */
-        background-image: url(./ButtonBackground.gif);
+        background-image: url(./src/ButtonBackground.gif);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         position: absolute;
