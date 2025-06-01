@@ -14,12 +14,12 @@ function Started() {
     let Show_P = document.querySelector("p#explain")
     let Show_TextPT2 = document.querySelector("p#textPT2")
     let Show_FButton = document.querySelector("button#finalbutton")
-    let Chance_background_div_mom = querySelector("div#Div_Mom")
+    let Change_background_div_mom = document.querySelector("div#Div_Mom")
 
-    Show_FButton.style = "display: initial;"
-    Chance_background_div_mom.style = "display: initial;"
-    ButtonPos.style = "display: initial;"
     Change_BackGround.style = ""
+    Change_background_div_mom.style = "display: initial;"
+    Show_FButton.style = "display: initial;"
+    ButtonPos.style = "display: initial;"
     Show_video.style = "display: initial;"
     ButtonPlay.style = "display: initial;"
     Show_P.style = "display: initial;"

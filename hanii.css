@@ -22,11 +22,13 @@ body {
     }
     div#Div_Mom {
         display: none;
+        position: absolute;
         background-image: url(./src/BackgroundOmedetou.gif);
-        background-size: 120% 160%;
+        background-size: 120% 100%;
         background-repeat: no-repeat;
         width: 100%;
-        height: 160%;
+        height: 100%;
+        overflow: scroll;
     }
     header#InitialMsg {
     font: 25pt normal;
@@ -56,8 +58,7 @@ body {
     }
     div#ClickMePls::before {
         content: "";
-        background-color: rgb(255, 255, 255); 
-         background-image: url(./src/Nanami\ Chest.png);
+        background-image: url(./src/Nanami\ Chest.png);
         background-size: cover; 
         z-index: -1;
         inset: 0;
@@ -81,7 +82,7 @@ body {
     }
     button#Play {
         display: none;
-        width: 30%;
+        width: 35%;
         height: 50px;
         position: absolute;
         top: 38%;
@@ -94,55 +95,61 @@ body {
         font: 25pt normal Arial;
         -webkit-text-stroke: 0.4px;
         -webkit-text-stroke-color: blue;
-        left: 35%;
+        left: 32%;
     }
     p#explain {
         display: none;
         font: 15pt normal;
+        background-color: rgba(15, 16, 87, 0.377);
+        border-radius: 15px;
+        width: 85%;
+        margin-left: 7%;
         font-family: "Brush Script MT", cursive;
         position: absolute;
         color: rgb(255, 255, 255);
-        top: 42%;
+        top: 43%;
         -webkit-text-stroke: 0.4px;
         -webkit-text-stroke-color: blue;
         text-align: center;
     }
+    div#PT2End {
+        position: flex;
+        flex-direction: column;
+        margin-top: 115%;
+        width: 94%;
+        height: 38%;
+        overflow: scroll;
+        background-color: rgb(0, 0, 0);
+        margin-left: 3%;
+        border-radius: 15px;
+        padding: 2px;
+    }
     p#textPT2 {
         display: none;
         width: 90%;
-        height: auto;
-        background-color: rgb(29, 29, 29);
-        margin: 4%;
-        position: absolute;
+        height: 59%;
         color: white;
-        top: 58%;
         font: 15pt normal Arial;
         -webkit-text-stroke: 0.2px;
         -webkit-text-stroke-color: blue;
-        flex-direction: column;
-        padding: 5px;
-        border-radius: 10px;
+        overflow: hidden;
     }
     div#Button_pos {
         display: none;
-        position: absolute;
-        top: 117%;
-        width: 90%;
-        height: 50px;
-        left: 34%;
     }
     button#finalbutton {
-        /* display: none; */
+        display: none; 
         background-image: url(./src/ButtonBackground.gif);
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        position: absolute;
-        top: 150%;
         height: 50px;
         width: 35%;
         border-radius: 15px;
-        color: black;
+        color: rgb(0, 0, 0);
         font: 21pt normal Arial;
+        -webkit-text-stroke: 2%;
+        margin-left: 33%;
+        margin-top: 5%;
     }
     div#final {
         display: none;
