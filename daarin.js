@@ -13,7 +13,9 @@ function Started() {
     let ButtonPos = document.getElementById('Button_pos')
     let Show_P = document.querySelector("p#explain")
     let Show_TextPT2 = document.querySelector("p#textPT2")
+    let Show_FButton = document.querySelector("button#finalbutton")
 
+    Show_FButton.style = "display: initial;"
     ButtonPos.style = "display: initial;"
     Change_BackGround.style = "background-image: url(./src/BackgroundOmedetou.gif); background-size: 120% 130%; background-repeat: no-repeat;"
     Show_video.style = "display: initial;"
