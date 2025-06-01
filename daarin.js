@@ -14,10 +14,12 @@ function Started() {
     let Show_P = document.querySelector("p#explain")
     let Show_TextPT2 = document.querySelector("p#textPT2")
     let Show_FButton = document.querySelector("button#finalbutton")
+    let Chance_background_div_mom = querySelector("div#Div_Mom")
 
     Show_FButton.style = "display: initial;"
+    Chance_background_div_mom.style = "display: initial;"
     ButtonPos.style = "display: initial;"
-    Change_BackGround.style = "background-image: url(./src/BackgroundOmedetou.gif); background-size: 120% 150%; background-repeat: no-repeat;"
+    Change_BackGround.style = ""
     Show_video.style = "display: initial;"
     ButtonPlay.style = "display: initial;"
     Show_P.style = "display: initial;"
