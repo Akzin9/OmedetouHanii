@@ -17,7 +17,7 @@ function Started() {
 
     Show_FButton.style = "display: initial;"
     ButtonPos.style = "display: initial;"
-    Change_BackGround.style = "background-image: url(./src/BackgroundOmedetou.gif); background-size: 120% 130%; background-repeat: no-repeat;"
+    Change_BackGround.style = "background-image: url(./src/BackgroundOmedetou.gif); background-size: 120% 150%; background-repeat: no-repeat;"
     Show_video.style = "display: initial;"
     ButtonPlay.style = "display: initial;"
     Show_P.style = "display: initial;"
