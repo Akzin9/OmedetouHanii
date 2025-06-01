@@ -48,8 +48,8 @@ function chest() {
 
     // adição final
 
-    Change_BackGround.style = ""
-    Show_Final_Div.style = "display: initial;"
+    Change_BackGround.style = "width: 100%; height: 100%;"
+    Show_Final_Div.style = "display: initial; height: 100%; width: 100%;"
     Show_Final_Video.style = "display: initial;"
     Show_Final_Video.play()
     Show_Final_Video.volume = (0.20)
