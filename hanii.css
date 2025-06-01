@@ -71,24 +71,24 @@ body {
     /* parte dois da página */
     div#VideoPT2 {
         display: none;
-        width: 100%;
         overflow: hidden;
     }
     video#Video {
         display: none;
-        width: 134%;
+        width: 100%;
         height: 100%;
         position: absolute;
-        top: -32%;
-        margin-left: -17%;
+        top: -31%;
         overflow: hidden;
+        transform: scale(1.4);
+        transform-origin: center;
     }
     button#Play {
         display: none;
         width: 35%;
         height: 50px;
         position: absolute;
-        top: 39%;
+        top: 40%;
         border-radius: 15px;
         padding: 4px;
         background-image: url(./src/BackgroundTemp.gif);
@@ -102,7 +102,7 @@ body {
     }
     p#explain {
         display: none;
-        font: 19pt normal;
+        font: 17pt normal;
         background-color: rgba(15, 16, 87, 0.377);
         border-radius: 15px;
         width: 85%;
@@ -111,7 +111,7 @@ body {
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         position: absolute;
         color: rgb(255, 255, 255);
-        top: 43%;
+        top: 44%;
         -webkit-text-stroke: 0.4px;
         -webkit-text-stroke-color: blue;
         text-align: center;
@@ -120,7 +120,7 @@ body {
     div#PT2End {
         position: flex;
         flex-direction: column;
-        margin-top: 113%;
+        margin-top: 115%;
         width: 94%;
         height: 38%;
         overflow: scroll;
