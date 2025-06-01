@@ -99,7 +99,7 @@ body {
     }
     p#explain {
         display: none;
-        font: 15pt normal;
+        font: 19pt normal;
         background-color: rgba(15, 16, 87, 0.377);
         border-radius: 15px;
         width: 85%;
@@ -112,11 +112,12 @@ body {
         -webkit-text-stroke: 0.4px;
         -webkit-text-stroke-color: blue;
         text-align: center;
+        word-wrap: break-word;
     }
     div#PT2End {
         position: flex;
         flex-direction: column;
-        margin-top: 115%;
+        margin-top: 113%;
         width: 94%;
         height: 38%;
         overflow: scroll;
