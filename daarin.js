@@ -10,9 +10,11 @@ function Started() {
     let Change_BackGround = document.querySelector("body#BodyH")
     let Show_video = document.querySelector("video#Video")
     let ButtonPlay = document.querySelector("button#Play")
+    let ButtonPos = document.getElementById('Button_pos')
     let Show_P = document.querySelector("p#explain")
     let Show_TextPT2 = document.querySelector("p#textPT2")
 
+    ButtonPos.style = "display: initial;"
     Change_BackGround.style = "background-image: url(./src/BackgroundOmedetou.gif); background-size: 120% 130%; background-repeat: no-repeat;"
     Show_video.style = "display: initial;"
     ButtonPlay.style = "display: initial;"
@@ -35,6 +37,7 @@ function chest() {
     let Change_BackGround = document.querySelector("body#BodyH")
     let Remove_video = document.querySelector("video#Video")
     let Remove_ButtonPlay = document.querySelector("button#Play")
+    let Remove_ButtonPos = document.getElementById('Button_pos')
     let Remove_P = document.querySelector("p#explain")
     let Remove_TextPT2 = document.querySelector("p#textPT2")
     let Show_Final_Video = document.querySelector("video#vdFinal")
@@ -43,6 +46,7 @@ function chest() {
     remove_finalB.style = "display: none;"
     Remove_video.style = "display: none;"
     Remove_ButtonPlay.style = "display: none;"
+    Remove_ButtonPos.style = "display: none;"
     Remove_P.style = "display: none;"
     Remove_TextPT2.style = "display: none;"
 
