@@ -43,10 +43,14 @@ function chest() {
     let Remove_ButtonPlay = document.querySelector("button#Play")
     let Remove_ButtonPos = document.getElementById('Button_pos')
     let Remove_P = document.querySelector("p#explain")
+    let Remove_PT2End = document.querySelector("div#PT2End")
     let Remove_TextPT2 = document.querySelector("p#textPT2")
+    var Remove_Div_Mom = document.getElementById("Div_Mom")
     let Show_Final_Video = document.querySelector("video#vdFinal")
     let Show_Final_Div = document.querySelector("div#final")
 
+    Remove_Div_Mom.style = "display: none; overflow: hidden;"
+    Remove_PT2End.style = "display: none;"
     remove_finalB.style = "display: none;"
     Remove_video.style = "display: none;"
     Remove_ButtonPlay.style = "display: none;"
